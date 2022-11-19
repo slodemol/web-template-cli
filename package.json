@@ -1,0 +1,25 @@
+{
+  "name": "web-template-cli",
+  "version": "1.0.0",
+  "description": "Create project templates such as vue, rect, and quickly add components or views or sotre",
+  "main": "index.js",
+  "bin": {
+    "temp": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "vue",
+    "cli",
+    "template"
+  ],
+  "author": "nidala",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.8"
+  }
+}
